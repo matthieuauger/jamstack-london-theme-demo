@@ -8,12 +8,13 @@ module.exports = {
         meetupDotComGroupUrlName: "JAMstack-London",
         displayVideosLink: false,
         //meetupVideosUrl = 'https://www.youtube.com/channel/UC66eQOycjMnaqzpbRUhEK2w'
-        talkProposalUrl: "#",
+        talkProposalUrl: "https://twitter.com/philhawksworth",
         textBlocksPath: `${__dirname}/src/text-blocks`,
         translations: {
-          PROPOSE_A_TALK: "Propose a talk →",
+          PROPOSE_A_TALK: "Propose a talk to Phil →",
           FETCH_VIDEOS: "See videos →",
-          LAST_MEETUPS: "Last meetups"
+          LAST_MEETUPS: "Last meetups",
+          REGISTER_ON_MEETUP: "Register on Meetup →"
         }
       }
     }
